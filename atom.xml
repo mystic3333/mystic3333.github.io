@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mystic&#39;s blog</title>
+  
+  <subtitle>produce by Mystic</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-08-05T14:26:36.001Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Mystic</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/08/05/test/"/>
+    <id>http://yoursite.com/2018/08/05/test/</id>
+    <published>2018-08-05T14:26:31.849Z</published>
+    <updated>2018-08-05T14:26:36.001Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;title: hahahah&lt;/p&gt;
+&lt;h2 id=&quot;wangshimin是个大美女&quot;&gt;&lt;a href=&quot;#wangshimin是个大美女&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
