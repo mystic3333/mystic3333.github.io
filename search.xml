@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[welcome to my blog]]></title>
+    <url>%2F2018%2F08%2F08%2Fhello%2F</url>
+    <content type="text"><![CDATA[###HELLO WORLD!!!!! ### hellllllllo worrrrrrld]]></content>
+      <categories>
+        <category>about</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[hahahah]]></title>
     <url>%2F2018%2F08%2F05%2Ftest%2F</url>
     <content type="text"><![CDATA[test test test哈哈哈哈。。。。]]></content>
