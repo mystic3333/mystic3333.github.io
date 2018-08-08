@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[hahahah]]></title>
     <url>%2F2018%2F08%2F05%2Ftest%2F</url>
-    <content type="text"><![CDATA[title: hahahah wangshimin是个大美女哈哈哈哈。。。。]]></content>
+    <content type="text"><![CDATA[test test test哈哈哈哈。。。。]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
   </entry>
 </search>
