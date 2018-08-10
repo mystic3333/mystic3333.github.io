@@ -375,7 +375,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  307 
+                  920 
                 </span>
               
 
@@ -391,7 +391,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  4
                 </span>
               
             </div>
@@ -417,9 +417,23 @@
             <h2 id="排序算法"><a href="#排序算法" class="headerlink" title="排序算法"></a>排序算法</h2><hr>
 <p> <strong>- 冒泡排序</strong></p>
 <blockquote>
-<p>原理：  相邻两个元素之间相互对比， 如果第一个元素大于第二个元素， 则交换位置<br>效果： 最大的元素不断的往后冒泡<br>特点： 稳定  /  最坏时间复杂度为 O(n2)</p>
+<p>原理：  相邻两个元素之间相互对比， 如果第一个元素大于第二个元素， 则交换位置<br>效果： 最大的元素不断的往后冒泡<br>特点： 稳定  /  最坏时间复杂度为 O(n2)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">def bubble(alist):</span><br><span class="line">    # 获取数列长度</span><br><span class="line">    n = len(alist)</span><br><span class="line">    for j in range(0, n-1):</span><br><span class="line">        # 引入计数变量， 用于记录元素的交换次数</span><br><span class="line">        count = 0</span><br><span class="line">        # 如果count大于零， 则代表位置被交换过，排序过的列表是正序的，所以直接跳出循环</span><br><span class="line">        if count &gt; 0:</span><br><span class="line">            break</span><br><span class="line">        else:</span><br><span class="line">            # 内层循环用于比较相邻元素的大小， n-1-j：表示每次循环的最大长度都向前挪一位（每一次循环都会产生一个最大值）</span><br><span class="line">            for i in range(0, n-1-j):</span><br><span class="line">                # 当前一个元素大于后一个元素的时候， 进行位置交换</span><br><span class="line">                if alist[i] &gt; alist[i+1]:</span><br><span class="line">                    alist[i], alist[i+1] = alist[i+1], alist[i]</span><br><span class="line">                    # 每交换一次位置就进行一次计数</span><br><span class="line">                    count += 1</span><br><span class="line">    # 返回排序后的列表</span><br><span class="line">    return alist</span><br><span class="line"></span><br><span class="line">alist = [1,2,3,4,5,6]</span><br><span class="line">l = bubble(alist)</span><br><span class="line">print(l) # [1, 2, 3, 4, 5, 6]</span><br></pre></td></tr></table></figure></p>
 </blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">def bubble(alist):</span><br><span class="line">    # 获取数列长度</span><br><span class="line">    n = len(alist)</span><br><span class="line">    for j in range(0, n-1):</span><br><span class="line">        # 引入计数变量， 用于记录元素的交换次数</span><br><span class="line">        count = 0</span><br><span class="line">        # 如果count大于零， 则代表位置被交换过，排序过的列表是正序的，所以直接跳出循环</span><br><span class="line">        if count &gt; 0:</span><br><span class="line">            break</span><br><span class="line">        else:</span><br><span class="line">            # 内层循环用于比较相邻元素的大小， n-1-j：表示每次循环的最大长度都向前挪一位（每一次循环都会产生一个最大值）</span><br><span class="line">            for i in range(0, n-1-j):</span><br><span class="line">                # 当前一个元素大于后一个元素的时候， 进行位置交换</span><br><span class="line">                if alist[i] &gt; alist[i+1]:</span><br><span class="line">                    alist[i], alist[i+1] = alist[i+1], alist[i]</span><br><span class="line">                    # 每交换一次位置就进行一次计数</span><br><span class="line">                    count += 1</span><br><span class="line">    # 返回排序后的列表</span><br><span class="line">    return alist</span><br><span class="line"></span><br><span class="line">alist = [1,2,3,4,5,6]</span><br><span class="line">l = bubble(alist)</span><br><span class="line">print(l) # [1, 2, 3, 4, 5, 6]</span><br></pre></td></tr></table></figure>
+<hr>
+<p> <strong>- 选择排序</strong></p>
+<blockquote>
+<p>原理： 从0索引元素开始遍历列表， 找到最小元素的索引， 并且从第一个元素开始逐个替换， 内部每一次循环的索引值都递增1<br>效果：<br>特点： 不稳定  /  最坏时间复杂度为 O(n2)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">def select_sort(alist):</span><br><span class="line">    # 数组长度</span><br><span class="line">    n = len(alist)</span><br><span class="line">    # 假设每次循环的第一个元素都是最小值， 定义一个变量进行存储</span><br><span class="line">    min_index = 0</span><br><span class="line">    # 外层循环用于控制需要遍历的次数， 结束位置为length-2</span><br><span class="line">    for j in range(0, n-1):</span><br><span class="line">        # 内层循环用于控制每次遍历的起始位置为j， 结束位置为length-1</span><br><span class="line">        for i in range(j, n):</span><br><span class="line">            # 遍历元素对比一开始假设最小索引的值</span><br><span class="line">            if alist[min_index] &gt; alist[i]:</span><br><span class="line">                # 如果找到min_index小的元素， 则重新赋值</span><br><span class="line">                min_index = i</span><br><span class="line">        # 找到最小索引后， 并且把它放在第一个位置</span><br><span class="line">        alist[min_index], alist[j] = alist[j], alist[min_index]</span><br><span class="line">    return</span><br><span class="line"></span><br><span class="line">alistalist = [9,55,1,32,54,3,2,55,66,77,65]</span><br><span class="line">l = select_sort(alist)</span><br><span class="line">print(l) # [1, 2, 3, 9, 32, 66, 54, 55, 55, 65, 77]， 排序后并不完全达到升序排列效果， 体现了选择排序的不稳定性</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<hr>
+<p> <strong>- 插入排序</strong></p>
+<blockquote>
+<p>原理: 将列表看做有序序列和无序序列两部分， 从索引下标为1的元素开始拿出来跟有序序列的元素逐个进行比较， 如果取出来的元素比前面的元素小， 则交换位置， 以此类推， 步长为-1<br>效果：<br>特点： 稳定  /  最坏时间复杂度为 O(n2)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">def insert_sort(alist):</span><br><span class="line">    n = len(alist)</span><br><span class="line">    for i in range(1, n):</span><br><span class="line">        while i &gt; 0:</span><br><span class="line">            if alist[i] &lt; alist[i-1]:</span><br><span class="line">                alist[i], alist[i-1] = alist[i-1], alist[i]</span><br><span class="line">                i -= 1</span><br><span class="line">            else:</span><br><span class="line">                break</span><br><span class="line">    return alist</span><br><span class="line"></span><br><span class="line">alist = [9,55,1,32,54,3,2,55,66,77,65]</span><br><span class="line">l = insert_sort(alist)</span><br><span class="line">print(l)</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<hr>
+<p> <strong>- 希尔排序</strong></p>
+<blockquote>
+<p>原理: 被认为是插入排序的升级版， 原理同插入排序大致相同， 唯一区别在于加入了间隔， 步长为-grep<br>效果：<br>特点： 稳定  /  最坏时间复杂度为 O(n2)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">def shell_sort(alist):</span><br><span class="line">    n = len(alist)</span><br><span class="line">    grep = n // 2</span><br><span class="line">    while grep &gt; 0:</span><br><span class="line">        for i in range(grep, n):</span><br><span class="line">            while i &gt; 0:</span><br><span class="line">                if alist[i] &lt; alist[i-grep]:</span><br><span class="line">                    alist[i], alist[i-grep] = alist[i-grep], alist[i]</span><br><span class="line">                i -= grep</span><br><span class="line">        grep = grep // 2</span><br><span class="line">    return alist</span><br><span class="line"></span><br><span class="line">alist = [9,55,1,32,54,3,2,55,66,77,65]</span><br><span class="line">l = shell_sort(alist)</span><br><span class="line">print(l)</span><br></pre></td></tr></table></figure></p>
+</blockquote>
 
           
         
@@ -526,7 +540,7 @@
               
               <div class="site-state-item site-state-categories">
                 
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">分类</span>
                 
               </div>
@@ -537,7 +551,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -611,7 +625,7 @@
 -->
   <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共307字</span>
+  <span class="post-count">博客全站共920字</span>
 </div>
 
 
