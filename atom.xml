@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Mystic&#39;s blog</title>
+  <title>MysTic&#39;s blog</title>
   
   <subtitle>produce by Mystic</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jishupeng.cn/"/>
-  <updated>2018-08-10T09:43:47.315Z</updated>
+  <updated>2018-08-10T10:06:22.389Z</updated>
   <id>http://jishupeng.cn/</id>
   
   <author>
-    <name>Mystic</name>
+    <name>MysTic</name>
     
   </author>
   
@@ -21,7 +21,7 @@
     <link href="http://jishupeng.cn/2018/08/10/algorithm/"/>
     <id>http://jishupeng.cn/2018/08/10/algorithm/</id>
     <published>2018-08-10T08:53:59.523Z</published>
-    <updated>2018-08-10T09:43:47.315Z</updated>
+    <updated>2018-08-10T10:06:22.389Z</updated>
     
     <summary type="html">
     
