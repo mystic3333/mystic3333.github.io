@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jishupeng.cn/"/>
-  <updated>2018-08-08T08:16:52.664Z</updated>
+  <updated>2018-08-10T09:02:54.580Z</updated>
   <id>http://jishupeng.cn/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>welcome to my blog</title>
-    <link href="http://jishupeng.cn/2018/08/08/hello/"/>
-    <id>http://jishupeng.cn/2018/08/08/hello/</id>
-    <published>2018-08-08T08:13:50.898Z</published>
-    <updated>2018-08-08T08:16:52.664Z</updated>
+    <title>算法汇总</title>
+    <link href="http://jishupeng.cn/2018/08/10/algorithm/"/>
+    <id>http://jishupeng.cn/2018/08/10/algorithm/</id>
+    <published>2018-08-10T08:53:59.523Z</published>
+    <updated>2018-08-10T09:02:54.580Z</updated>
     
     <summary type="html">
     
@@ -29,42 +29,19 @@
       
         
         
-          &lt;p&gt;###&lt;br&gt;HELLO WORLD!!!!!&lt;/p&gt;
-&lt;p&gt;###&lt;/p&gt;
-&lt;p&gt;hellllllllo worrrrrrld
+          &lt;h2 id=&quot;排序算法&quot;&gt;&lt;a href=&quot;#排序算法&quot; class=&quot;headerlink&quot; title=&quot;排序算法&quot;&gt;&lt;/a&gt;排序算法&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt; &lt;strong&gt;- 冒泡排序&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原理： 
         
       
     
     </summary>
     
-      <category term="about" scheme="http://jishupeng.cn/categories/about/"/>
+      <category term="python" scheme="http://jishupeng.cn/categories/python/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>hahahah</title>
-    <link href="http://jishupeng.cn/2018/08/05/test/"/>
-    <id>http://jishupeng.cn/2018/08/05/test/</id>
-    <published>2018-08-05T14:26:31.849Z</published>
-    <updated>2018-08-08T07:52:27.174Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;test-test-test&quot;&gt;&lt;a href=&quot;#test-test-test&quot; class=&quot;headerlink&quot; title=&quot;test test test&quot;&gt;&lt;/a&gt;test test
-        
-      
-    
-    </summary>
-    
-      <category term="测试" scheme="http://jishupeng.cn/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="测试" scheme="http://jishupeng.cn/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="算法" scheme="http://jishupeng.cn/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   

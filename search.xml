@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[welcome to my blog]]></title>
-    <url>%2F2018%2F08%2F08%2Fhello%2F</url>
-    <content type="text"><![CDATA[###HELLO WORLD!!!!! ### hellllllllo worrrrrrld]]></content>
+    <title><![CDATA[算法汇总]]></title>
+    <url>%2F2018%2F08%2F10%2Falgorithm%2F</url>
+    <content type="text"><![CDATA[排序算法 - 冒泡排序 原理： 相邻两个元素之间相互对比， 如果第一个元素大于第二个元素， 则交换位置效果： 最大的元素不断的往后冒泡特点： 稳定 / 最坏时间复杂度为 O(n2) 1234567891011121314151617181920212223def bubble(alist): # 获取数列长度 n = len(alist) for j in range(0, n-1): # 引入计数变量， 用于记录元素的交换次数 count = 0 # 如果count大于零， 则代表位置被交换过，排序过的列表是正序的，所以直接跳出循环 if count &gt; 0: break else: # 内层循环用于比较相邻元素的大小， n-1-j：表示每次循环的最大长度都向前挪一位（每一次循环都会产生一个最大值） for i in range(0, n-1-j): # 当前一个元素大于后一个元素的时候， 进行位置交换 if alist[i] &gt; alist[i+1]: alist[i], alist[i+1] = alist[i+1], alist[i] # 每交换一次位置就进行一次计数 count += 1 # 返回排序后的列表 return alistalist = [1,2,3,4,5,6]l = bubble(alist)print(l) # [1, 2, 3, 4, 5, 6]]]></content>
       <categories>
-        <category>about</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[hahahah]]></title>
-    <url>%2F2018%2F08%2F05%2Ftest%2F</url>
-    <content type="text"><![CDATA[test test test哈哈哈哈。。。。]]></content>
-      <categories>
-        <category>测试</category>
+        <category>python</category>
       </categories>
       <tags>
-        <tag>测试</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
 </search>
