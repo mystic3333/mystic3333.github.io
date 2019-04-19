@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[算法汇总]]></title>
+    <title><![CDATA[【Python版本】 排序算法]]></title>
     <url>%2F2019%2F04%2F19%2Falgorithm%2F</url>
     <content type="text"><![CDATA[排序算法 - 冒泡排序 原理： 相邻两个元素之间相互对比， 如果第一个元素大于第二个元素， 则交换位置效果： 最大的元素不断的往后冒泡特点： 稳定 / 最坏时间复杂度为 O(n2)1234567891011121314151617181920212223def bubble(alist): # 获取数列长度 n = len(alist) for j in range(0, n-1): # 引入计数变量， 用于记录元素的交换次数 count = 0 # 如果count大于零， 则代表位置被交换过，排序过的列表是正序的，所以直接跳出循环 if count &gt; 0: break else: # 内层循环用于比较相邻元素的大小， n-1-j：表示每次循环的最大长度都向前挪一位（每一次循环都会产生一个最大值） for i in range(0, n-1-j): # 当前一个元素大于后一个元素的时候， 进行位置交换 if alist[i] &gt; alist[i+1]: alist[i], alist[i+1] = alist[i+1], alist[i] # 每交换一次位置就进行一次计数 count += 1 # 返回排序后的列表 return alistalist = [1,2,3,4,5,6]l = bubble(alist)print(l) # [1, 2, 3, 4, 5, 6] - 选择排序 原理： 从0索引元素开始遍历列表， 找到最小元素的索引， 并且从第一个元素开始逐个替换， 内部每一次循环的索引值都递增1效果：特点： 不稳定 / 最坏时间复杂度为 O(n2)1234567891011121314151617181920def select_sort(alist): # 数组长度 n = len(alist) # 假设每次循环的第一个元素都是最小值， 定义一个变量进行存储 min_index = 0 # 外层循环用于控制需要遍历的次数， 结束位置为length-2 for j in range(0, n-1): # 内层循环用于控制每次遍历的起始位置为j， 结束位置为length-1 for i in range(j, n): # 遍历元素对比一开始假设最小索引的值 if alist[min_index] &gt; alist[i]: # 如果找到min_index小的元素， 则重新赋值 min_index = i # 找到最小索引后， 并且把它放在第一个位置 alist[min_index], alist[j] = alist[j], alist[min_index] returnalistalist = [9,55,1,32,54,3,2,55,66,77,65]l = select_sort(alist)print(l) # [1, 2, 3, 9, 32, 66, 54, 55, 55, 65, 77]， 排序后并不完全达到升序排列效果， 体现了选择排序的不稳定性 - 插入排序 原理: 将列表看做有序序列和无序序列两部分， 从索引下标为1的元素开始拿出来跟有序序列的元素逐个进行比较， 如果取出来的元素比前面的元素小， 则交换位置， 以此类推， 步长为-1效果：特点： 稳定 / 最坏时间复杂度为 O(n2)1234567891011121314def insert_sort(alist): n = len(alist) for i in range(1, n): while i &gt; 0: if alist[i] &lt; alist[i-1]: alist[i], alist[i-1] = alist[i-1], alist[i] i -= 1 else: break return alistalist = [9,55,1,32,54,3,2,55,66,77,65]l = insert_sort(alist)print(l) - 希尔排序 原理: 被认为是插入排序的升级版， 原理同插入排序大致相同， 唯一区别在于加入了间隔， 步长为-grep效果：特点： 稳定 / 最坏时间复杂度为 O(n2)123456789101112131415def shell_sort(alist): n = len(alist) grep = n // 2 while grep &gt; 0: for i in range(grep, n): while i &gt; 0: if alist[i] &lt; alist[i-grep]: alist[i], alist[i-grep] = alist[i-grep], alist[i] i -= grep grep = grep // 2 return alistalist = [9,55,1,32,54,3,2,55,66,77,65]l = shell_sort(alist)print(l)]]></content>
       <categories>
-        <category>python</category>
+        <category>数据结构与算法</category>
       </categories>
       <tags>
         <tag>算法</tag>
