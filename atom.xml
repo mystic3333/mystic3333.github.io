@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>MysTic&#39;s blog</title>
+  <title>自学IT的攻城狮</title>
   
-  <subtitle>produce by Mystic</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <subtitle>-------------</subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://jishupeng.cn/"/>
   <updated>2018-08-10T10:06:22.389Z</updated>
   <id>http://jishupeng.cn/</id>
   
   <author>
-    <name>MysTic</name>
+    <name>自学IT的攻城狮</name>
     
   </author>
   
@@ -18,9 +18,9 @@
   
   <entry>
     <title>算法汇总</title>
-    <link href="http://jishupeng.cn/2018/08/10/algorithm/"/>
-    <id>http://jishupeng.cn/2018/08/10/algorithm/</id>
-    <published>2018-08-10T08:53:59.523Z</published>
+    <link href="http://jishupeng.cn/2019/04/19/algorithm/"/>
+    <id>http://jishupeng.cn/2019/04/19/algorithm/</id>
+    <published>2019-04-19T01:39:44.763Z</published>
     <updated>2018-08-10T10:06:22.389Z</updated>
     
     <summary type="html">
@@ -29,7 +29,7 @@
       
         
         
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\blog\assets\css\APlayer.min.css&quot;&gt;&lt;script
         
       
     
