@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+<style>
+    .pace .pace-progress {
+        background: #f0f0f0; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico?v=5.1.4">
+
+
+
+
+
+
+  <meta name="keywords" content="Java," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="自学IT的攻城狮" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="网站导航（全部书单资源导航页）：http://jishupeng.cn/archives/  前言：技术书阅读方法论总结  一.速读一遍（最好在1~2天内完成）人的大脑记忆力有限，在一天内快速看完一本书会在大脑里留下深刻印象，对于之后复习以及总结都会有特别好的作用。对于每一章的知识，先阅读标题，弄懂大概讲的是什么主题，再去快速看一遍，不懂也没有关系，但是一定要在不懂的地方做个记号，什么记号无所谓，">
+<meta name="keywords" content="Java">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一.【后端开发】Java打怪升级路线 爆肝整理推荐50+本PDF（从入门到进阶）">
+<meta property="og:url" content="http://jishupeng.cn/2019/04/20/一.【后端开发】Java打怪升级路线 爆肝整理推荐50+本PDF（从入门到进阶）/index.html">
+<meta property="og:site_name" content="自学IT的攻城狮">
+<meta property="og:description" content="网站导航（全部书单资源导航页）：http://jishupeng.cn/archives/  前言：技术书阅读方法论总结  一.速读一遍（最好在1~2天内完成）人的大脑记忆力有限，在一天内快速看完一本书会在大脑里留下深刻印象，对于之后复习以及总结都会有特别好的作用。对于每一章的知识，先阅读标题，弄懂大概讲的是什么主题，再去快速看一遍，不懂也没有关系，但是一定要在不懂的地方做个记号，什么记号无所谓，">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420011649676.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013443696.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013624908.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013636785.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013647316.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013657586.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013709785.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013717897.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013725840.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013736221.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013744991.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013754872.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013848369.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013900256.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013912672.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013925963.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013937475.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013946767.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420013955891.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014005303.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014014742.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014024642.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014032921.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014042101.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014053609.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014104898.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014113675.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014124330.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014138672.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014150305.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014159217.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014209922.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014226388.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014245367.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014255288.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014307254.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014317724.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2019042001432745.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014336322.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014356557.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014410328.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014420256.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014429786.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014441828.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014452715.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014504352.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014513285.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014525398.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014535651.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014546644.jpg">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20190420014617305.jpg">
+<meta property="og:updated_time" content="2019-04-19T18:06:04.950Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="一.【后端开发】Java打怪升级路线 爆肝整理推荐50+本PDF（从入门到进阶）">
+<meta name="twitter:description" content="网站导航（全部书单资源导航页）：http://jishupeng.cn/archives/  前言：技术书阅读方法论总结  一.速读一遍（最好在1~2天内完成）人的大脑记忆力有限，在一天内快速看完一本书会在大脑里留下深刻印象，对于之后复习以及总结都会有特别好的作用。对于每一章的知识，先阅读标题，弄懂大概讲的是什么主题，再去快速看一遍，不懂也没有关系，但是一定要在不懂的地方做个记号，什么记号无所谓，">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20190420011649676.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":false,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://jishupeng.cn/2019/04/20/一.【后端开发】Java打怪升级路线 爆肝整理推荐50+本PDF（从入门到进阶）/"/>
+
+
+
+
+
+  <title>一.【后端开发】Java打怪升级路线 爆肝整理推荐50+本PDF（从入门到进阶） | 自学IT的攻城狮</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <a href="https://github.com/mystic3333" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">自学IT的攻城狮</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">945429869(技术交流) 44730189(一些网课源码文档)</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://jishupeng.cn/2019/04/20/一.【后端开发】Java打怪升级路线 爆肝整理推荐50+本PDF（从入门到进阶）/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="自学IT的攻城狮">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="自学IT的攻城狮">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">一.【后端开发】Java打怪升级路线 爆肝整理推荐50+本PDF（从入门到进阶）</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-20T02:04:02+08:00">
+                2019-04-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Java</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  5,544 
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  19
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><strong>网站导航（全部书单资源导航页）：<a href="http://jishupeng.cn/archives/">http://jishupeng.cn/archives/</a></strong></p>
+<blockquote>
+<h2 id="前言：技术书阅读方法论总结"><a href="#前言：技术书阅读方法论总结" class="headerlink" title="前言：技术书阅读方法论总结"></a>前言：技术书阅读方法论总结</h2></blockquote>
+<blockquote>
+<h2 id="一-速读一遍（最好在1-2天内完成）"><a href="#一-速读一遍（最好在1-2天内完成）" class="headerlink" title="一.速读一遍（最好在1~2天内完成）"></a>一.速读一遍（最好在1~2天内完成）</h2><p>人的大脑记忆力有限，在一天内快速看完一本书会在大脑里留下深刻印象，对于之后复习以及总结都会有特别好的作用。<br>对于每一章的知识，先阅读标题，弄懂大概讲的是什么主题，再去快速看一遍，不懂也没有关系，但是一定要在不懂的地方做个记号，什么记号无所谓，但是要让自己后面再看的时候有个提醒的作用，看看第二次看有没有懂了些。</p>
+</blockquote>
+<blockquote>
+<h2 id="二-精读一遍（在2周内看完）"><a href="#二-精读一遍（在2周内看完）" class="headerlink" title="二.精读一遍（在2周内看完）"></a>二.精读一遍（在2周内看完）</h2><p>有了前面速读的感觉，第二次看会有慢慢深刻了思想和意识的作用，具体为什么不要问我，去问30年后的神经大脑专家，现在人类可能还没有总结出为什么大脑对记忆的完全方法论，但是，就像我们专业程序员，打代码都是先实践，然后就渐渐懂了过程，慢慢懂了原理，所以第二遍读的时候稍微慢下来，2周内搞定。记住一句话：没看完一个章节后，总结一下这个章节讲了啥。很关键。</p>
+</blockquote>
+<blockquote>
+<h2 id="三-实践（在整个过程中都要）"><a href="#三-实践（在整个过程中都要）" class="headerlink" title="三.实践（在整个过程中都要）"></a>三.实践（在整个过程中都要）</h2><p>实践的时候，要注意不用都去实践，最好看着书，敲下代码，把重点的内容敲一遍有个肌肉记忆就很不错了。 以及到自己做过的项目中去把每个有涉及的原理的代码，研究一遍，就可以了</p>
+<p>Java开发工程师一般负责后端开发，当然也有专门做Java<br>Web的工程师，但是随着前后端的分离，越来越多的Java工程师需要往大后端方向发展。今天我们就来介绍一下Java后端开发者的书单。首先要感谢一下某大佬力推的后端书架，初学阶段读到了很多好书直到现在都让他印象深刻。<br>大佬说他在两年的学习历程中看了很多的书，其中不乏XXX入门到精通，XXX王者 归来，XXX指南什么的。<br>虽然这类书确实毛病很多，但是作为非科班的他来说，当时还是看的津津有味。直到后来我他看到一些优秀的书籍，以及大佬的大佬哥的书架，他才逐渐认识到看一些精品书籍的好处。<br>所以我今天就从这些精品书籍中挑选一些优秀书籍来推荐给大家，当然其中有一些书我自己也没有时间看完。<br>接下来我们按照后端技术栈各个部分的内容来推荐书籍。 懂的人自然懂吧，就不多说了，对了最后说一句，进了猪厂。</p>
+</blockquote>
+<blockquote>
+<p><strong>PDF书单列表（有需要可以自行提取，需要先down下来，无法在线查看）：<a href="https://pan.baidu.com/s/1gE6Pp9KrOjes_D83hG-tfQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1gE6Pp9KrOjes_D83hG-tfQ</a></strong> 提取码：4kbd<br>备注：里面已经顺便整理压缩好，为防止被和谐尽快下载后在PC端打开查看，网盘直接打开会显示损坏。</p>
+</blockquote>
+<p>资源图示：<br><img src="https://img-blog.csdnimg.cn/20190420011649676.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>以下是每本书的推荐语，清楚自己缺的是什么，就下定决心去补吧，一个好工作意味着高收入，投资自己的时间换来更宝贵的东西。</p>
+<h1 id="Java从入门SE到进阶EE："><a href="#Java从入门SE到进阶EE：" class="headerlink" title="Java从入门SE到进阶EE："></a><strong>Java从入门SE到进阶EE：</strong></h1><h3 id="一-计算机网络系列："><a href="#一-计算机网络系列：" class="headerlink" title="一.计算机网络系列："></a>一.计算机网络系列：</h3><h4 id="1-《TCP-IP卷一》"><a href="#1-《TCP-IP卷一》" class="headerlink" title="1.《TCP/IP卷一》"></a>1.《TCP/IP卷一》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013443696.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="TCP/IP卷一"><br>这本其实我刚开始没看太懂，可能是当时太水的原因，但是一般是大牛力荐的书。</p>
+<h4 id="2-《计算机网络：自顶向下》"><a href="#2-《计算机网络：自顶向下》" class="headerlink" title="2.《计算机网络：自顶向下》"></a>2.《计算机网络：自顶向下》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013624908.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="计算机网络：自顶向下"></p>
+<p>这本从应用层讲到物理层，感觉这种方式学起来更轻松，我比较推荐小白看这本。</p>
+<h4 id="3-《图解HTTP和图解TCP-IP》"><a href="#3-《图解HTTP和图解TCP-IP》" class="headerlink" title="3.《图解HTTP和图解TCP/IP》"></a>3.《图解HTTP和图解TCP/IP》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013636785.jpg" alt="图解HTTP和图解TCP/IP"></p>
+<p>相较于前两本大厚书，这两本书更加亲民，小白可以买来看看，还是很适合入门的。</p>
+<h4 id="4-《计算机网络》"><a href="#4-《计算机网络》" class="headerlink" title="4.《计算机网络》"></a>4.《计算机网络》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013647316.jpg" alt="计算机网络"></p>
+<p>没错，就是这本教材，作为非科班选手自己看这本书，那叫一个欲仙欲死啊，看完就忘记了。</p>
+<h3 id="二-操作系统系列"><a href="#二-操作系统系列" class="headerlink" title="二.操作系统系列"></a>二.操作系统系列</h3><h4 id="1-《深入理解计算机系统》"><a href="#1-《深入理解计算机系统》" class="headerlink" title="1.《深入理解计算机系统》"></a>1.《深入理解计算机系统》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013657586.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="深入理解计算机系统"></p>
+<p>这本书不是严格意义上的操作系统书籍，而是对计算机基础和操作系统做了一个串联，可以解决你很多对于计算机的疑惑，并且对操作系统有一定理解。<br>其实这本书还是很厚的，有一定难度，建议有一些基础后再看。</p>
+<h4 id="2-《现代操作系统》"><a href="#2-《现代操作系统》" class="headerlink" title="2. 《现代操作系统》"></a>2. 《现代操作系统》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013709785.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="现代操作系统"></p>
+<p>这本书其实我没怎么看，比较详细地讲解了操作系，但是也是大家都比较推崇的书，还是那句话，很厚，慎看。</p>
+<h4 id="3-《Linux内核设计与实现》"><a href="#3-《Linux内核设计与实现》" class="headerlink" title="3.《Linux内核设计与实现》"></a>3.《Linux内核设计与实现》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013717897.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="Linux内核设计与实现"></p>
+<p>当你对操作系统有一定理解以后，这本书将为你打开学习Linux内核的大门，当然在此之前你得有一定的c语言开发能力，以及对Linux的了解。反正，我现在还没开始准备好看这本书。</p>
+<h4 id="4-《Unix网络编程》"><a href="#4-《Unix网络编程》" class="headerlink" title="4.《Unix网络编程》"></a>4.《Unix网络编程》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013725840.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="Unix网络编程"></p>
+<p>这两本书的厚度绝对让你感到绝望，其实就是讲解了Unix内核是如何实现网络通信的，其中涉及到很多网络，操作系统的知识，并且你要熟悉c语言。总之，这是一本奉为网络编程神书的存在，不过我等新手还是拿他压压泡面就好了。网上有很多博客会参照该书的内容，可以去看看它们。</p>
+<h3 id="三-数据结构与算法系列"><a href="#三-数据结构与算法系列" class="headerlink" title="三.数据结构与算法系列"></a>三.数据结构与算法系列</h3><p>不瞒你说，由于我非科班，所以算法基础比较差，数据结构是考研时跟着天勤考研指南学的，学习算法也是一路坎坷，举步维艰。还是分享几本比较靠谱的书吧。</p>
+<h4 id="1-《算法导论》"><a href="#1-《算法导论》" class="headerlink" title="1.《算法导论》"></a>1.《算法导论》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013736221.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="算法导论"></p>
+<p>你问我是不是认真的，我就是说说而已，这本书我买来没看过。</p>
+<h4 id="2-《数据结构与算法（Java版）》"><a href="#2-《数据结构与算法（Java版）》" class="headerlink" title="2.《数据结构与算法（Java版）》"></a>2.《数据结构与算法（Java版）》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013744991.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="数据结构与算法（Java版）"></p>
+<p>这本书对于初学者来说还是比较友好的，当然学Java的看这本。</p>
+<h4 id="3-《算法图解》《啊哈算法》"><a href="#3-《算法图解》《啊哈算法》" class="headerlink" title="3.《算法图解》《啊哈算法》"></a>3.《算法图解》《啊哈算法》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013754872.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《算法图解》《啊哈算法》"></p>
+<p>这两部书籍非常适合学习算法的入门，前者主要用图解的形式覆盖了大部分常用算法，包括dp，贪心等等，可以作为入门书，后者则把很多常用算法都进行了实现，包括搜索，图，树等一些比较高级的常用算法。</p>
+<h4 id="4-《剑指offer》"><a href="#4-《剑指offer》" class="headerlink" title="4 .《剑指offer》"></a>4 .《剑指offer》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013848369.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《剑指offer》"></p>
+<p>这本书还是要强烈推荐的，毕竟是面试题经常参考的书籍，当然最好有前面基本的铺垫再看，可能收获更大，这本书在面试之前一般都要嚼烂。</p>
+<h4 id="5-LeetCode教科书式刷题网站"><a href="#5-LeetCode教科书式刷题网站" class="headerlink" title="5.LeetCode教科书式刷题网站"></a>5.LeetCode教科书式刷题网站</h4><p>这不是一本书，是一个题库，算法么，终究还是要靠刷题来提升熟练度的。</p>
+<h3 id="四-Java基础系列"><a href="#四-Java基础系列" class="headerlink" title="四.Java基础系列"></a>四.Java基础系列</h3><h4 id="1-《Java编程思想》"><a href="#1-《Java编程思想》" class="headerlink" title="1.《Java编程思想》"></a>1.《Java编程思想》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013900256.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《Java编程思想》"></p>
+<p>这本书也是被誉为Java神书的存在了，但是对新手不友好，适合有些基础再看，当然要选择性地看。我当时大概只看了1/3</p>
+<h4 id="2-《Java核心技术卷一》"><a href="#2-《Java核心技术卷一》" class="headerlink" title="2.《Java核心技术卷一》"></a>2.《Java核心技术卷一》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013912672.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《Java核心技术卷一》"></p>
+<p>这本书还是比较适合入门的，当然，这种厚皮书要看完还是很有难度的，不过比起上面那本要简单一些</p>
+<h3 id="五-Java进阶系列"><a href="#五-Java进阶系列" class="headerlink" title="五.Java进阶系列"></a>五.Java进阶系列</h3><h4 id="1-《深入理解JVM虚拟机》"><a href="#1-《深入理解JVM虚拟机》" class="headerlink" title="1.《深入理解JVM虚拟机》"></a>1.《深入理解JVM虚拟机》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013925963.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《深入理解JVM虚拟机》"></p>
+<p>这本书是Java开发者必须看的书，很多jvm的文章都是提取这本书的内容。JVM是Java虚拟机，赋予了Java程序生命，所以好好看看把，我自己就已经看了三遍了。</p>
+<h4 id="2-《Java并发编程实战》"><a href="#2-《Java并发编程实战》" class="headerlink" title="2.《Java并发编程实战》"></a>2.《Java并发编程实战》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013937475.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《Java并发编程实战》"></p>
+<p>这本书是Java 并发包作者写的书，所以非常权威，但是比较晦涩难懂，我看的云里雾里的，大家可以按需选择。</p>
+<h4 id="3-《Java并发编程艺术》"><a href="#3-《Java并发编程艺术》" class="headerlink" title="3.《Java并发编程艺术》"></a>3.《Java并发编程艺术》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013946767.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《Java并发编程艺术》"></p>
+<p>这本书是国内作者写的Java并发书籍，比上面那一本更简单易懂，适合作为并发编程的入门书籍，当然，学习并发原理之前，还是先把Java的多线程搞懂吧。</p>
+<h4 id="4-《Effective-Java》"><a href="#4-《Effective-Java》" class="headerlink" title="4.《Effective Java》"></a>4.《Effective Java》</h4><p><img src="https://img-blog.csdnimg.cn/20190420013955891.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《Effective Java》"></p>
+<p>这本书和Java编程思想一样被称为神书，主要讲的是Java的一些优化技巧和规范，没有一定开发经验的人看这本书会觉得索然无味，不知所云，所以，先搁着吧。</p>
+<h4 id="5-《Java性能调优指南》"><a href="#5-《Java性能调优指南》" class="headerlink" title="5.《Java性能调优指南》"></a>5.《Java性能调优指南》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014005303.jpg" alt="《Java性能调优指南》"></p>
+<p>说到JVM调优，可能会有很多的面试题浮现在你的脑海里，这本书比较权威地讲解了Java的性能调优方法，不过我还没怎么看，有空好好看看。</p>
+<h4 id="6-《-Netty权威指南》"><a href="#6-《-Netty权威指南》" class="headerlink" title="6.《 Netty权威指南》"></a>6.《 Netty权威指南》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014014742.jpg" alt="《 Netty权威指南》"></p>
+<p>Netty是基于NIO开发的网络编程框架，使用Java代码编程，其实这本书也可以放在网络或者Java Web部分。不过NIO属于JDK自带的一部分，是必须要掌握的，而对于Netty，大家如果学有余力的话也可以看看。</p>
+<h3 id="六-JavaWeb系列"><a href="#六-JavaWeb系列" class="headerlink" title="六.JavaWeb系列"></a>六.JavaWeb系列</h3><h4 id="1-《深入JavaWeb技术内幕》"><a href="#1-《深入JavaWeb技术内幕》" class="headerlink" title="1.《深入JavaWeb技术内幕》"></a>1.《深入JavaWeb技术内幕》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014024642.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《深入JavaWeb技术内幕》"></p>
+<p>这本书是Java Web的集大成之作，涵盖了大部分Java Web开发的知识点，不过一本书显然无法把所有细节都讲完，但是作为Java Web的入门或者进阶书籍来看的话还是很不错的。</p>
+<h4 id="2-《How-Tomcat-Works》"><a href="#2-《How-Tomcat-Works》" class="headerlink" title="2.《How Tomcat Works》"></a>2.《How Tomcat Works》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014032921.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《How Tomcat Works》"></p>
+<p>Java Web很重要的一部分内容就是Tomcat，作为应用服务器，Tomcat使用Java开发，其源代码和架构设计都是经典之作。</p>
+<p>这是一本讲解Tomcat基本原理的书籍，很好地通过剖析源码来讲解Tomcat的内部结构和运行机制，但是需要一定的基础才能够看懂，我还没看这本书，日后再拜读。</p>
+<h4 id="3-《Tomcat架构解析》"><a href="#3-《Tomcat架构解析》" class="headerlink" title="3.《Tomcat架构解析》"></a>3.《Tomcat架构解析》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014042101.jpg" alt="《Tomcat架构解析》"></p>
+<p>和上面这本书类似，主要讲解Tomcat原理和架构，，要看懂这本书的话，前提是你要对Java基础，NIO以及设计模式有所了解。这本书我也还没看。</p>
+<h4 id="4-《Spring实战》"><a href="#4-《Spring实战》" class="headerlink" title="4.《Spring实战》"></a>4.《Spring实战》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014053609.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《Spring实战》"></p>
+<p>这本书适合作为Spring的入门书籍，把Spring的概念，使用方式等内容都讲的比较清楚。并且也介绍了Spring MVC的部分内容，Spring框架还是更注重实践的，所以跟着书上的内容去做吧。</p>
+<h4 id="5-《Spring源码深度解析》"><a href="#5-《Spring源码深度解析》" class="headerlink" title="5.《Spring源码深度解析》"></a>5.《Spring源码深度解析》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014104898.jpg" alt="《Spring源码深度解析》"></p>
+<p>学会Spring基础后，可以花点时间看看这本讲源码的书了，这本书对于新手来说不太友好，主要也是因为Spring的代码结构比较复杂，大家也可以看一些博客来完成对源码的学习。</p>
+<h4 id="6-《Spring-MVC学习指南》"><a href="#6-《Spring-MVC学习指南》" class="headerlink" title="6.《Spring MVC学习指南》"></a>6.《Spring MVC学习指南》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014113675.jpg" alt="《Spring MVC学习指南》"></p>
+<p>本书是一本Spring MVC的教程，内容细致、讲解清晰，非常适合Web开发者和想要使用Spring MVC开发基于Java的Web应用的读者阅读。但是由于出的比较早，所以不太适合现在版本。</p>
+<h4 id="7-《Maven实战》"><a href="#7-《Maven实战》" class="headerlink" title="7.《Maven实战》"></a>7.《Maven实战》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014124330.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《Maven实战》"></p>
+<p>Maven是Java Web开发中不可缺少的一部分，如果想要全面了解其实现原理的话，可以看看这本书。</p>
+<h3 id="七-数据库系列"><a href="#七-数据库系列" class="headerlink" title="七.数据库系列"></a>七.数据库系列</h3><h4 id="1-《数据库原理》"><a href="#1-《数据库原理》" class="headerlink" title="1.《数据库原理》"></a>1.《数据库原理》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014138672.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《数据库原理》"></p>
+<p>数据库原理应该是教材吧，这本书作为数据库入门来说还是可以的，毕竟不是专门做DB的，看大厚书用处不大，这本书把数据库的基本概念都讲完了。</p>
+<h4 id="2-《SQL必知必会》"><a href="#2-《SQL必知必会》" class="headerlink" title="2.《SQL必知必会》"></a>2.《SQL必知必会》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014150305.jpg" alt="《SQL必知必会》"></p>
+<p>这本书主要是讲解sql语句怎么写，毕竟数据库最重要的一点就是要熟练地使用sql语句，当然这本书也可以当做工具书来使用。</p>
+<h4 id="3-《深入浅出MySQL》"><a href="#3-《深入浅出MySQL》" class="headerlink" title="3.《深入浅出MySQL》"></a>3.《深入浅出MySQL》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014159217.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《深入浅出MySQL》"></p>
+<p>这本书适合作为MySQL的学习书籍，当你有了一定的MySQL使用经验后，可以看看它，该书从数据库的基础、开发、优化、管理维护和架构5个方面对MySQL进行了详细的介绍，讲的不算特别深，但是足够我们使用了。这本书我也只看了一部分。</p>
+<h4 id="4-《MySQL技术内幕：innodb存储引擎》"><a href="#4-《MySQL技术内幕：innodb存储引擎》" class="headerlink" title="4.《MySQL技术内幕：innodb存储引擎》"></a>4.《MySQL技术内幕：innodb存储引擎》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014209922.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《MySQL技术内幕：innodb存储引擎》"></p>
+<p>看完上面那本书以后，对MySQL算是比较熟悉了，不过对于面试中常考的innodb引擎，还是推荐一下这本书把，专门讲解了innodb存储引擎的相关内容。我还没有细看，但是内容足够你学好innodb了。</p>
+<h4 id="5-《高性能Mysql》"><a href="#5-《高性能Mysql》" class="headerlink" title="5.《高性能Mysql》"></a>5.《高性能Mysql》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014226388.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="《高性能Mysql》"></p>
+<p>这本书可以说是很厚了，更适合DBA拜读，讲的太详细了，打扰了。</p>
+<h4 id="6-《Redis实战》"><a href="#6-《Redis实战》" class="headerlink" title="6.《Redis实战》"></a>6.《Redis实战》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014245367.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="Redis实战"></p>
+<p>和MySQL一样，学习Redis的第一步最好也是先实战一下，通过这本书就可以较好地掌握Redis的使用方法，以及相关数据结构了。</p>
+<h4 id="7-《Redis设计与实现》"><a href="#7-《Redis设计与实现》" class="headerlink" title="7.《Redis设计与实现》"></a>7.《Redis设计与实现》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014255288.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="Redis设计与实现"></p>
+<p>该书全面而完整地讲解了 Redis 的内部运行机制,对 Redis 的大多数单机功能以及所有多机功能的实现原理进行了介绍。这本书把Redis的基本原理讲的一清二楚，包括数据结构，持久化，集群等内容，有空应该看看。</p>
+<h3 id="八-分布式系列"><a href="#八-分布式系列" class="headerlink" title="八.分布式系列"></a>八.分布式系列</h3><h4 id="1-《分布式Java应用》"><a href="#1-《分布式Java应用》" class="headerlink" title="1.《分布式Java应用》"></a>1.《分布式Java应用》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014307254.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="分布式Java应用"></p>
+<p>这本书是淘宝大牛写的书，主要讲的就是使用rpc来构建分布式的Java应用，讲了很多基础的东西，可以作为入门书籍，不过这本书我之前没有遇到，所以没看过。</p>
+<h4 id="2-《大型网站技术架构》"><a href="#2-《大型网站技术架构》" class="headerlink" title="2.《大型网站技术架构》"></a>2.《大型网站技术架构》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014317724.jpg" alt="大型网站技术架构"></p>
+<p>这本淘宝系技术指南还是非常值得推崇的，可以说是把大型网站的现代架构进行了一次简单的总结，内容涵盖了各方面，主要讲的是概念，很适合没接触过架构的同学入门。看完以后你会觉得后端技术原来这么博大精深。</p>
+<h4 id="2-《大型分布式网站架构设计与实践》"><a href="#2-《大型分布式网站架构设计与实践》" class="headerlink" title="2.《大型分布式网站架构设计与实践》"></a>2.《大型分布式网站架构设计与实践》</h4><p><img src="https://img-blog.csdnimg.cn/2019042001432745.jpg" alt="大型分布式网站架构设计与实践"></p>
+<p>这本书与上面一书相比更倾向于实践，主要讲的是分布式架构的一些解决方案，但是如果你没有接触过相关的场景，可能会看的云里雾里。</p>
+<h4 id="4-《分布式服务框架原理与实践》"><a href="#4-《分布式服务框架原理与实践》" class="headerlink" title="4 .《分布式服务框架原理与实践》"></a>4 .《分布式服务框架原理与实践》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014336322.jpg" alt="分布式服务框架原理与实践"></p>
+<p>上面那本书讲的是分布式架构的实践，而这本书更专注于分布式服务的原理讲解和对应实践，很好地讲述了分布式服务的基本概念，相关技术，以及解决方案等，对于想要学习分布式服务框架的同学来说是本好书。</p>
+<h4 id="5-《大型网站系统与Java中间件开发实践》"><a href="#5-《大型网站系统与Java中间件开发实践》" class="headerlink" title="5.《大型网站系统与Java中间件开发实践》"></a>5.《大型网站系统与Java中间件开发实践》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014356557.jpg" alt="大型网站系统与Java中间件开发实践"></p>
+<p>话说这些书的名字真实够长的。这本书也是阿里系出品，主要讲的是大型网站系统以及使用的相关中间件，毕竟阿里是中间件大户，所以很多中间件对应用再网站系统中，对于想学习这方面技术的同学来说可以一看。</p>
+<h4 id="6-《从Paxos到Zookeeper分布式一致性原理与实践》"><a href="#6-《从Paxos到Zookeeper分布式一致性原理与实践》" class="headerlink" title="6.《从Paxos到Zookeeper分布式一致性原理与实践》"></a>6.《从Paxos到Zookeeper分布式一致性原理与实践》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014410328.jpg" alt="从Paxos到Zookeeper分布式一致性原理与实践"></p>
+<p>说起分布式系统，我们需要了解它的原理，相关理论及技术，这本书也是从这个角度出发，讲解了分布式系统的一些常用概念，并且带出了分布式一哥zookeeper，可以说是想学分布式技术的同学必看的书籍。</p>
+<h4 id="7-《大规模分布式存储系统》"><a href="#7-《大规模分布式存储系统》" class="headerlink" title="7.《大规模分布式存储系统》"></a>7.《大规模分布式存储系统》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014420256.jpg" alt="大规模分布式存储系统"></p>
+<p>这本书是阿里巴巴oceanbase核心开发大佬写的书，讲的是分布式存储相关的原理和解决方案，该书不是很厚，如果想做存储方向的同学可以看看。</p>
+<h3 id="九-云计算系列"><a href="#九-云计算系列" class="headerlink" title="九.云计算系列"></a>九.云计算系列</h3><p>云计算方面的内容主要是我在实习阶段接触的，如果只是应用开发方向的话这块不懂也罢。主要还是看个人兴趣。</p>
+<h4 id="1-《OpenStack设计与实现》"><a href="#1-《OpenStack设计与实现》" class="headerlink" title="1.《OpenStack设计与实现》"></a>1.《OpenStack设计与实现》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014429786.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="OpenStack设计与实现"></p>
+<p>OpenStack是基于KVM技术的一套私有云生态。这本书很好地讲解了OpenStack的一些基本原理，包括各个组件的设计与实现，比起另一本《OpenStack王者归来》简单易懂的多。当然，前提最好是你对Linux内核和网络有所了解。</p>
+<h4 id="2-《docker入门与实践》"><a href="#2-《docker入门与实践》" class="headerlink" title="2.《docker入门与实践》"></a>2.《docker入门与实践》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014441828.jpg" alt="docker入门与实践"></p>
+<p>docker是现在应用部署的主流方案了，所以了解一下还是挺有必要的，这本书作为入门书籍足够让你会使用docker了。</p>
+<h4 id="3-《Kubenetes权威指南》"><a href="#3-《Kubenetes权威指南》" class="headerlink" title="3.《Kubenetes权威指南》"></a>3.《Kubenetes权威指南》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014452715.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="Kubenetes权威指南"></p>
+<p>kubenetes是docker的集群解决方案，也是一个微服务的解决方案，所以这本书涉及的内容非常多，需要有网络，操作系统以及docker相关的基础。我看这本书的时候可以说是非常晕的。</p>
+<h3 id="十-大数据系列"><a href="#十-大数据系列" class="headerlink" title="十.大数据系列"></a>十.大数据系列</h3><p>和云计算一样，大数据方面的内容也不算是Java后端技术栈所需要的，但是这也能为你加分，并且让你跟大数据开发的岗位沾点边，何乐而不为。</p>
+<h4 id="1-《大数据技术原理与应用》"><a href="#1-《大数据技术原理与应用》" class="headerlink" title="1.《大数据技术原理与应用》"></a>1.《大数据技术原理与应用》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014504352.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="大数据技术原理与应用"></p>
+<p>作为大数据方面的一本教材，厦大教授写的这本书还是非常赞的，从最基础的原理方面讲解了Hadoop的生态系统，并且把每个组件的原理都讲得比较清楚，另外也加入了spark，storm等内容，可以说是大数据入门非常好的一本书了。</p>
+<h4 id="2-《Hadoop实战》"><a href="#2-《Hadoop实战》" class="headerlink" title="2.《Hadoop实战》"></a>2.《Hadoop实战》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014513285.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="Hadoop实战"></p>
+<p>这本书很厚，我买的时候大概看了一遍，一头雾水。所以建议先看上面那本书，再来看更加进阶的书籍，否则可能就是浪费时间了。</p>
+<h4 id="3-《Hadoop权威指南》"><a href="#3-《Hadoop权威指南》" class="headerlink" title="3.《Hadoop权威指南》"></a>3.《Hadoop权威指南》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014525398.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1Mzc0Nw==,size_16,color_FFFFFF,t_70" alt="Hadoop权威指南"></p>
+<p>这本书主要对Hadoop生态中组件进行详细讲解，有点太详细了，如果不是做大数据方向的话，可以不看。</p>
+<h3 id="十一-其他系列："><a href="#十一-其他系列：" class="headerlink" title="十一.其他系列："></a>十一.其他系列：</h3><h4 id="1-《Git权威指南》"><a href="#1-《Git权威指南》" class="headerlink" title="1.《Git权威指南》"></a>1.《Git权威指南》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014535651.jpg" alt="Git权威指南"></p>
+<p>Git是现在大公司主流的代码协同工具，如果你想要了解其底层原理，可以看看这本书。</p>
+<h4 id="2-《重构——改善既有代码的设计》"><a href="#2-《重构——改善既有代码的设计》" class="headerlink" title="2.《重构——改善既有代码的设计》"></a>2.《重构——改善既有代码的设计》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014546644.jpg" alt="重构——改善既有代码的设计"></p>
+<p>这本书主要介绍的是代码重构的一些指导思想和最佳实践。有重构需求的同学可以看看。</p>
+<h4 id="3-其他的其他"><a href="#3-其他的其他" class="headerlink" title="3.其他的其他"></a>3.其他的其他</h4><p>其他方面的书籍就太多了，比如软件工程方面的，测试方面，Linux方面，以及讲一些程序员自我提升的书籍，就不一一列举了，因为这部分的内容可以不归入Java后端的技术栈。</p>
+<h3 id="十二-颈椎康复系列："><a href="#十二-颈椎康复系列：" class="headerlink" title="十二.颈椎康复系列："></a>十二.颈椎康复系列：</h3><h4 id="1-《做自己的颈椎医生》"><a href="#1-《做自己的颈椎医生》" class="headerlink" title="1.《做自己的颈椎医生》"></a>1.《做自己的颈椎医生》</h4><p><img src="https://img-blog.csdnimg.cn/20190420014617305.jpg" alt="做自己的颈椎医生"></p>
+<p>身体是革命的本钱。懂得人不用解释了。</p>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><blockquote>
+<h6 id="一-计算机网络系列（4本）："><a href="#一-计算机网络系列（4本）：" class="headerlink" title="一.计算机网络系列（4本）："></a>一.计算机网络系列（4本）：</h6><p>1.《TCP/IP卷一》<br>2.《计算机网络：自顶向下》<br>3.《图解HTTP和图解TCP/IP》<br>4.《计算机网络》</p>
+<h5 id="二-操作系统系列（4本）"><a href="#二-操作系统系列（4本）" class="headerlink" title="二.操作系统系列（4本）"></a>二.操作系统系列（4本）</h5><p>1.《深入理解计算机系统》<br>2.《现代操作系统》<br>3.《Linux内核设计与实现》<br>4.《Unix网络编程》 </p>
+<h5 id="三-数据结构与算法系列（5本）"><a href="#三-数据结构与算法系列（5本）" class="headerlink" title="三.数据结构与算法系列（5本）"></a>三.数据结构与算法系列（5本）</h5><p>1.《算法导论》<br>2.《数据结构与算法（Java版）》<br>3.《算法图解，啊哈算法》<br>4.《剑指offer》<br>5.LeetCode教科书式刷题网站 </p>
+<h5 id="四-Java基础系列（2本）"><a href="#四-Java基础系列（2本）" class="headerlink" title="四.Java基础系列（2本）"></a>四.Java基础系列（2本）</h5><p>1.《Java编程思想》<br>2.《Java核心技术卷一.二》 </p>
+<h5 id="五-Java进阶系列（6本）"><a href="#五-Java进阶系列（6本）" class="headerlink" title="五.Java进阶系列（6本）"></a>五.Java进阶系列（6本）</h5><p>1.《深入理解JVM虚拟机》<br>2.《Java并发编程实战》<br>3.《Java并发编程艺术》<br>4.《Effective Java》<br>5.《Java性能调优指南》<br>6.《 Netty权威指南》 </p>
+<h5 id="六-JavaWeb系列（7本）"><a href="#六-JavaWeb系列（7本）" class="headerlink" title="六.JavaWeb系列（7本）"></a>六.JavaWeb系列（7本）</h5><p>1.《深入JavaWeb技术内幕》<br>2.《How Tomcat Works》<br>3.《Tomcat架构解析》<br>4.《Spring实战》<br>5.《Spring源码深度解析》<br>6.《Spring MVC学习指南》<br>7.《Maven实战》 </p>
+<h5 id="七-数据库系列（7本）"><a href="#七-数据库系列（7本）" class="headerlink" title="七.数据库系列（7本）"></a>七.数据库系列（7本）</h5><p>1.《数据库原理》<br>2.《SQL必知必会》<br>3.《深入浅出MySQL》<br>4.《MySQL技术内幕：innodb存储引擎》<br>5.《高性能Mysql》<br>6.《Redis实战》<br>7.《Redis设计与实现》 </p>
+<h5 id="八-分布式系列（7本）"><a href="#八-分布式系列（7本）" class="headerlink" title="八.分布式系列（7本）"></a>八.分布式系列（7本）</h5><p>1.《分布式Java应用》<br>2.《大型网站技术架构》<br>3.《大型分布式网站架构设计与实践》<br>4.《布式服务框架原理与实践》<br>5.《大型网站系统与Java中间件开发实践》<br>6.《从Paxos到Zookeeper分布式一致性原理与实践》<br>7.《大规模分布式存储系统》 </p>
+<h5 id="九-云计算系列（3本）"><a href="#九-云计算系列（3本）" class="headerlink" title="九.云计算系列（3本）"></a>九.云计算系列（3本）</h5><p>1.《OpenStack设计与实现》<br>2.《docker入门与实践》<br>3.《Kubenetes权威指南》 </p>
+<h5 id="十-大数据系列（3本）"><a href="#十-大数据系列（3本）" class="headerlink" title="十.大数据系列（3本）"></a>十.大数据系列（3本）</h5><p>1.《大数据技术原理与应用》<br>2.《Hadoop实战》<br>3.《Hadoop权威指南》 </p>
+<h5 id="十一-其他系列（2本）"><a href="#十一-其他系列（2本）" class="headerlink" title="十一.其他系列（2本）"></a>十一.其他系列（2本）</h5><p>1.《Git权威指南》<br>2.《重构——改善既有代码的设计》<br>3.其他的其他 </p>
+<h5 id="十二-颈椎康复指南系列（不开玩笑，适当看看真心有用）（1本）"><a href="#十二-颈椎康复指南系列（不开玩笑，适当看看真心有用）（1本）" class="headerlink" title="十二.颈椎康复指南系列（不开玩笑，适当看看真心有用）（1本）"></a>十二.颈椎康复指南系列（不开玩笑，适当看看真心有用）（1本）</h5><p>1.《做自己的颈椎医生》</p>
+</blockquote>
+<blockquote>
+<p><strong>链接：<a href="https://pan.baidu.com/s/1gE6Pp9KrOjes_D83hG-tfQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1gE6Pp9KrOjes_D83hG-tfQ</a>   提取码：4kbd</strong><br><strong>备注：里面已经顺便整理压缩好，为防止被和谐尽快下载后在PC端打开查看，网盘直接打开会显示损坏。</strong></p>
+</blockquote>
+<p>天下没有不劳而获的果实，望各位年轻的朋友，想学技术的朋友，在决心扎入技术道路的路上披荆斩棘，把书弄懂了，再去敲代码，把原理弄懂了，再去实践，将会带给你的人生，你的工作，你的未来一个美梦。</p>
+<p>附：</p>
+<blockquote>
+<p>①Java学习之路吐血整理技术书从入门到进阶最全50+本（珍藏版)：</p>
+</blockquote>
+<blockquote>
+<p>②python从入门到进阶推荐书籍最全整理pdf分享附网盘链接已拿BT豆瓣offer：</p>
+</blockquote>
+<blockquote>
+<p>③C++吐血整理推荐书单从入门到进阶成神之路100+本(珍藏)(珍藏版):</p>
+</blockquote>
+<blockquote>
+<p>④Web前端书单从HTML到JS到AJAX到HTTP从框架到全栈过来人帮你走更少弯路（珍&gt;藏版）：</p>
+</blockquote>
+<blockquote>
+<p>⑤机器学习和python学习之路吐血整理技术书从入门到进阶(珍藏版)：</p>
+</blockquote>
+<blockquote>
+<p>⑥学习数据库从入门到进阶书籍pdf版吐血整理推荐（珍藏版：</p>
+</blockquote>
+<blockquote>
+<p>⑦C语言推荐书籍从入门到进阶带你走上大牛之路（珍藏版）：</p>
+</blockquote>
+<blockquote>
+<p>⑧算法与数据结构+一点点ACM从入门到进阶吐血整理推荐书单（珍藏版）：</p>
+</blockquote>
+<blockquote>
+<p>⑨安卓入门到进阶推荐书籍整理pdf附网盘链接已拿阿里豆瓣offer(珍藏)：</p>
+</blockquote>
+<blockquote>
+<p>⑩架构师之路史诗级必读书单吐血整理四个维度系列80+本书(珍藏版):</p>
+</blockquote>
+
+      
+    </div>
+    
+    
+    
+
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Java/" rel="tag"><i class="fa fa-tag"></i> Java</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/04/19/algorithm/" rel="next" title="【Python版本】 排序算法">
+                <i class="fa fa-chevron-left"></i> 【Python版本】 排序算法
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/avatar.jpg"
+                alt="自学IT的攻城狮" />
+            
+              <p class="site-author-name" itemprop="name">自学IT的攻城狮</p>
+              <p class="site-description motion-element" itemprop="description">报复性熬夜的灵魂码者</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+
+        <div>
+            
+              <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=32574996&auto=1&height=66"></iframe>
+            
+        </div>
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言：技术书阅读方法论总结"><span class="nav-text">前言：技术书阅读方法论总结</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一-速读一遍（最好在1-2天内完成）"><span class="nav-text">一.速读一遍（最好在1~2天内完成）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二-精读一遍（在2周内看完）"><span class="nav-text">二.精读一遍（在2周内看完）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三-实践（在整个过程中都要）"><span class="nav-text">三.实践（在整个过程中都要）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Java从入门SE到进阶EE："><span class="nav-text">Java从入门SE到进阶EE：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一-计算机网络系列："><span class="nav-text">一.计算机网络系列：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《TCP-IP卷一》"><span class="nav-text">1.《TCP/IP卷一》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《计算机网络：自顶向下》"><span class="nav-text">2.《计算机网络：自顶向下》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-《图解HTTP和图解TCP-IP》"><span class="nav-text">3.《图解HTTP和图解TCP/IP》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-《计算机网络》"><span class="nav-text">4.《计算机网络》</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二-操作系统系列"><span class="nav-text">二.操作系统系列</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《深入理解计算机系统》"><span class="nav-text">1.《深入理解计算机系统》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《现代操作系统》"><span class="nav-text">2. 《现代操作系统》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-《Linux内核设计与实现》"><span class="nav-text">3.《Linux内核设计与实现》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-《Unix网络编程》"><span class="nav-text">4.《Unix网络编程》</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三-数据结构与算法系列"><span class="nav-text">三.数据结构与算法系列</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《算法导论》"><span class="nav-text">1.《算法导论》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《数据结构与算法（Java版）》"><span class="nav-text">2.《数据结构与算法（Java版）》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-《算法图解》《啊哈算法》"><span class="nav-text">3.《算法图解》《啊哈算法》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-《剑指offer》"><span class="nav-text">4 .《剑指offer》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-LeetCode教科书式刷题网站"><span class="nav-text">5.LeetCode教科书式刷题网站</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四-Java基础系列"><span class="nav-text">四.Java基础系列</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《Java编程思想》"><span class="nav-text">1.《Java编程思想》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《Java核心技术卷一》"><span class="nav-text">2.《Java核心技术卷一》</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#五-Java进阶系列"><span class="nav-text">五.Java进阶系列</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《深入理解JVM虚拟机》"><span class="nav-text">1.《深入理解JVM虚拟机》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《Java并发编程实战》"><span class="nav-text">2.《Java并发编程实战》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-《Java并发编程艺术》"><span class="nav-text">3.《Java并发编程艺术》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-《Effective-Java》"><span class="nav-text">4.《Effective Java》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-《Java性能调优指南》"><span class="nav-text">5.《Java性能调优指南》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-《-Netty权威指南》"><span class="nav-text">6.《 Netty权威指南》</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#六-JavaWeb系列"><span class="nav-text">六.JavaWeb系列</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《深入JavaWeb技术内幕》"><span class="nav-text">1.《深入JavaWeb技术内幕》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《How-Tomcat-Works》"><span class="nav-text">2.《How Tomcat Works》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-《Tomcat架构解析》"><span class="nav-text">3.《Tomcat架构解析》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-《Spring实战》"><span class="nav-text">4.《Spring实战》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-《Spring源码深度解析》"><span class="nav-text">5.《Spring源码深度解析》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-《Spring-MVC学习指南》"><span class="nav-text">6.《Spring MVC学习指南》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-《Maven实战》"><span class="nav-text">7.《Maven实战》</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#七-数据库系列"><span class="nav-text">七.数据库系列</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《数据库原理》"><span class="nav-text">1.《数据库原理》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《SQL必知必会》"><span class="nav-text">2.《SQL必知必会》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-《深入浅出MySQL》"><span class="nav-text">3.《深入浅出MySQL》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-《MySQL技术内幕：innodb存储引擎》"><span class="nav-text">4.《MySQL技术内幕：innodb存储引擎》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-《高性能Mysql》"><span class="nav-text">5.《高性能Mysql》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-《Redis实战》"><span class="nav-text">6.《Redis实战》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-《Redis设计与实现》"><span class="nav-text">7.《Redis设计与实现》</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#八-分布式系列"><span class="nav-text">八.分布式系列</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《分布式Java应用》"><span class="nav-text">1.《分布式Java应用》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《大型网站技术架构》"><span class="nav-text">2.《大型网站技术架构》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《大型分布式网站架构设计与实践》"><span class="nav-text">2.《大型分布式网站架构设计与实践》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-《分布式服务框架原理与实践》"><span class="nav-text">4 .《分布式服务框架原理与实践》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-《大型网站系统与Java中间件开发实践》"><span class="nav-text">5.《大型网站系统与Java中间件开发实践》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-《从Paxos到Zookeeper分布式一致性原理与实践》"><span class="nav-text">6.《从Paxos到Zookeeper分布式一致性原理与实践》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-《大规模分布式存储系统》"><span class="nav-text">7.《大规模分布式存储系统》</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#九-云计算系列"><span class="nav-text">九.云计算系列</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《OpenStack设计与实现》"><span class="nav-text">1.《OpenStack设计与实现》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《docker入门与实践》"><span class="nav-text">2.《docker入门与实践》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-《Kubenetes权威指南》"><span class="nav-text">3.《Kubenetes权威指南》</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#十-大数据系列"><span class="nav-text">十.大数据系列</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《大数据技术原理与应用》"><span class="nav-text">1.《大数据技术原理与应用》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《Hadoop实战》"><span class="nav-text">2.《Hadoop实战》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-《Hadoop权威指南》"><span class="nav-text">3.《Hadoop权威指南》</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#十一-其他系列："><span class="nav-text">十一.其他系列：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《Git权威指南》"><span class="nav-text">1.《Git权威指南》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-《重构——改善既有代码的设计》"><span class="nav-text">2.《重构——改善既有代码的设计》</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-其他的其他"><span class="nav-text">3.其他的其他</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#十二-颈椎康复系列："><span class="nav-text">十二.颈椎康复系列：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-《做自己的颈椎医生》"><span class="nav-text">1.《做自己的颈椎医生》</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结："><span class="nav-text">总结：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#一-计算机网络系列（4本）："><span class="nav-text">一.计算机网络系列（4本）：</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#二-操作系统系列（4本）"><span class="nav-text">二.操作系统系列（4本）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#三-数据结构与算法系列（5本）"><span class="nav-text">三.数据结构与算法系列（5本）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#四-Java基础系列（2本）"><span class="nav-text">四.Java基础系列（2本）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#五-Java进阶系列（6本）"><span class="nav-text">五.Java进阶系列（6本）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#六-JavaWeb系列（7本）"><span class="nav-text">六.JavaWeb系列（7本）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#七-数据库系列（7本）"><span class="nav-text">七.数据库系列（7本）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#八-分布式系列（7本）"><span class="nav-text">八.分布式系列（7本）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#九-云计算系列（3本）"><span class="nav-text">九.云计算系列（3本）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#十-大数据系列（3本）"><span class="nav-text">十.大数据系列（3本）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#十一-其他系列（2本）"><span class="nav-text">十一.其他系列（2本）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#十二-颈椎康复指南系列（不开玩笑，适当看看真心有用）（1本）"><span class="nav-text">十二.颈椎康复指南系列（不开玩笑，适当看看真心有用）（1本）</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <!--
+    <i class="fa fa-user"></i>
+    -->
+    <i class="fab fa-github"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">自学IT的攻城狮</span>
+
+  
+</div>
+
+
+
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
+<!--
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+-->
+  <div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共6.5k字</span>
+</div>
+
+
+<!--
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+-->
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
+<script type="text/javascript" src="/js/src/love.js"></script>
